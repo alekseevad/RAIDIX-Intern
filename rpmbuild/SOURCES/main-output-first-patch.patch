@@ -1,0 +1,10 @@
+--- main.cpp	2022-03-23 11:51:35.433443076 +0300
++++ main.cpp.orig	2022-03-23 11:51:06.379442836 +0300
+@@ -2,6 +2,6 @@
+ 
+ int main()
+ {
+-    std::cout << "Test task in RADIX that was patched" << std::endl;
++    std::cout << "Test task in RADIX" << std::endl;
+     return 0;
+ }
