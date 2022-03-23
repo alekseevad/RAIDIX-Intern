@@ -1,13 +1,18 @@
+.PHONY: all clean install uninstall
 CC = g++
-CFLAGS = -c -Wall -Wextra -Wall
+CFLAGS = -Wall -Wextra -Wall
+
 all: main
 
+clean:
+	rm -rf *.o  	
+
 main: main.o
-	$(CC) $(CFLAGS) main.o -o main
+	$(CC) main.o $(CFLAGS) -o main
 
 main.o: main.cpp
-	$(CC) $(CFLAGS) main.cpp
+	$(CC) -c $(CFLAGS) main.cpp
 
-clean: 
-	rm -rf main.o
+
+
   
