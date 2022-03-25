@@ -1,4 +1,4 @@
-How To build rpm package
+## How To build rpm package
 Prepare build tools
 
 sudo yum install gcc-c++ rpm-build rpm-devel rpmlint make bash \
