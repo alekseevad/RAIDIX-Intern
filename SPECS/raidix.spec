@@ -8,7 +8,7 @@ URL:            https://github.com/alekseevad/RAIDIX-Intern
 Source0:        raidix-1.0.tar.gz
 Patch0:		raidix-output-first-patch.patch
 
-BuildRequires:  make, gcc-c++
+BuildRequires:  make, grep, gcc-c++
 Provides: 	raidix
 
 %description
@@ -29,6 +29,7 @@ make
 make check
 
 %install
+export BINDIR=%{_bindir}
 %make_install
 
 %post
