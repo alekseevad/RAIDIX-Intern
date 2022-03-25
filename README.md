@@ -1,24 +1,24 @@
 ## How To build rpm package
 Prepare build tools
 
-sudo yum install gcc-c++ rpm-build rpm-devel rpmlint make bash \
-	coreutils diffutils patch rpmdevtools
+	sudo yum install gcc-c++ rpm-build rpm-devel rpmlint make bash \
+		coreutils diffutils patch rpmdevtools
 
-Checkout sources
+#### Checkout sources
 
-cd $HOME
-mkdir rpmbuild
-git clone https://github.com/alekseevad/RAIDIX-Intern
+	cd $HOME \
+	mkdir rpmbuild \
+	git clone https://github.com/alekseevad/RAIDIX-Intern
 
-Build
+#### Build
 
-rpmbuild -ba SPECS/raidix.spec
+	rpmbuild -ba SPECS/raidix.spec
 
-Install
+#### Install
 
-sudo rpm -ihv RPMS/x86_64/raidix-1.0-1.el8.x86_64.rpm
+	sudo rpm -ihv RPMS/x86_64/raidix-1.0-1.el8.x86_64.rpm
 
-Check and Remove
+#### Check and Remove
 
-raidix
-sudo rpm -ev raidix
+	raidix \
+	sudo rpm -ev raidix
