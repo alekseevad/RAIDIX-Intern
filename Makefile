@@ -18,9 +18,6 @@ install:
 	mkdir -p $(DESTDIR)/usr/bin
 	install -m 0755 raidix $(DESTDIR)/usr/bin/raidix
 
-check: all
-	./raidix | grep -q 'Test task in RAIDIX'
-
 
 
   

@@ -26,7 +26,6 @@ export CXX="%{__cxx}"
 export CPP="%{__cpp}"
 export CFLAGS=""
 make
-make check
 
 %install
 export BINDIR=%{_bindir}
