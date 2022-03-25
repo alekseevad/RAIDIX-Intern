@@ -1,0 +1,10 @@
+--- raidix.cpp.orig	2022-03-25 15:36:55.221905023 +0300
++++ raidix.cpp	2022-03-25 15:37:24.192903999 +0300
+@@ -2,6 +2,6 @@
+ 
+ int main()
+ {
+-    std::cout << "Test task in RADIX" << std::endl;
++    std::cout << "Test task in RADIX was patched" << std::endl;
+     return 0;
+ }

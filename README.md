@@ -8,7 +8,7 @@ Prepare build tools
 
 	cd $HOME 
 	mkdir rpmbuild 
-	git clone https://github.com/alekseevad/RAIDIX-Intern
+	git clone https://github.com/alekseevad/RAIDIX-Intern .
 
 #### Build
 
