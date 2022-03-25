@@ -6,8 +6,8 @@ Prepare build tools
 
 #### Checkout sources
 
-	cd $HOME \
-	mkdir rpmbuild \
+	cd $HOME 
+	mkdir rpmbuild 
 	git clone https://github.com/alekseevad/RAIDIX-Intern
 
 #### Build
@@ -20,5 +20,5 @@ Prepare build tools
 
 #### Check and Remove
 
-	raidix \
+	raidix 
 	sudo rpm -ev raidix
